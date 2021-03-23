@@ -6,7 +6,7 @@ import android.text.TextPaint
 import kotlin.math.max
 
 
-class UnseenItemsDrawable(
+class UnreadCounterDrawable(
     private val originalDrawable: Drawable,
     private val unseenNumber: Int
 ) : Drawable() {

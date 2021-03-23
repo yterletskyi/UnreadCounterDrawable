@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateCounter(iv: ImageView) {
         iv.setImageDrawable(
-                UnseenItemsDrawable(
+                UnreadCounterDrawable(
                         originalDrawable = ResourcesCompat.getDrawable(resources, R.drawable.lite_ic_inbox, theme)!!,
                         unseenNumber = counter
                 )
